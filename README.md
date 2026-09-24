@@ -4,7 +4,7 @@
 
 # nightly
 
-[![Release](https://img.shields.io/github/v/release/libnudget/nightly?logo=github&label=latest)](https://github.com/libnudget/nightly/releases)
+[![Release](https://img.shields.io/github/v/release/coccinella-labs/nightly?logo=github&label=latest)](https://github.com/coccinella-labs/nightly/releases)
 
 Reusable GitHub Action workflow for nightly Flutter desktop builds.
 
@@ -33,7 +33,7 @@ permissions:
 
 jobs:
   nightly:
-    uses: libnudget/nightly/.github/workflows/nightly.yml@main
+    uses: coccinella-labs/nightly/.github/workflows/nightly.yml@main
     with:
       flutter-version: '3.41.6'
       tag-prefix: 'desktop/nightly-'
